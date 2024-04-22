@@ -16,9 +16,6 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              {/* I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
-              <br /> */}
               <br />I'm a Full Stack Developer skilled in
               <i>
                 <b className="purple"> MongoDB, Express, React, Node,js </b>
@@ -28,26 +25,10 @@ function Home2() {
               My foundation includes solid skills in &nbsp;
               <i>
                 <b className="purple">HTML, CSS, and JavaScript. </b> 
-                {/* and also in areas related to{" "}
-                <b className="purple">
-                  Blockchain.
-                </b> */}
               </i>
               <br />
               <br />
               I have a masters degree from Stanford University and a Full Stack Coding Certificate from UC Berkley. In my free time I enjoy playing boardgames, crafting and hiking.
-              {/* Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Node.js</b> and
-              <i>
-                <b className="purple">
-                  {" "}
-                  Modern Javascript Library and Frameworks
-                </b>
-              </i>
-              &nbsp; like
-              <i>
-                <b className="purple"> React.js and Next.js</b>
-              </i> */}
             </p>
           </Col>
           <Col md={4} className="myAvtar">
@@ -93,16 +74,6 @@ function Home2() {
                   <MdOutlineEmail />
                 </a>
               </li>
-              {/* <li className="social-icons">
-                <a
-                  href="https://www.instagram.com/soumyajit4419"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour home-social-icons"
-                >
-                  <AiFillInstagram />
-                </a>
-              </li> */}
             </ul>
           </Col>
         </Row>
