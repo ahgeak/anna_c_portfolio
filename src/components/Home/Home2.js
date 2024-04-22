@@ -19,26 +19,27 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
+              {/* I fell in love with programming and I have at least learnt
               something, I think… 🤷‍♂️
-              <br />
-              <br />I am fluent in classics like
+              <br /> */}
+              <br />I'm a Full Stack Developer skilled in
               <i>
-                <b className="purple"> C++, Javascript and Go. </b>
+                <b className="purple"> MongoDB, Express, React, Node,js </b>
               </i>
               <br />
               <br />
-              My field of Interest's are building new &nbsp;
+              My foundation includes solid skills in &nbsp;
               <i>
-                <b className="purple">Web Technologies and Products </b> and
-                also in areas related to{" "}
+                <b className="purple">HTML, CSS, and JavaScript. </b> 
+                {/* and also in areas related to{" "}
                 <b className="purple">
                   Blockchain.
-                </b>
+                </b> */}
               </i>
               <br />
               <br />
-              Whenever possible, I also apply my passion for developing products
+              I have a masters degree from Stanford University and a Full Stack Coding Certificate from UC Berkley. In my free time I enjoy playing boardgames, crafting and hiking.
+              {/* Whenever possible, I also apply my passion for developing products
               with <b className="purple">Node.js</b> and
               <i>
                 <b className="purple">
@@ -49,7 +50,7 @@ function Home2() {
               &nbsp; like
               <i>
                 <b className="purple"> React.js and Next.js</b>
-              </i>
+              </i> */}
             </p>
           </Col>
           <Col md={4} className="myAvtar">
