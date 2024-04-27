@@ -3,6 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import chore from "../../Assets/Projects/family-chore-planner-screenshot.png";
+import packing from "../../Assets/Projects/PackingList_Screenshot.png";
 
 // import leaf from "../../Assets/Projects/leaf.png";
 // import emotion from "../../Assets/Projects/emotion.png";
@@ -35,12 +36,12 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chore}
+              imgPath={packing}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              title="Packing List"
+              description="A program to help you plan your upcoming trip by creating a packing list. Technologies used: Node, Express, Handlebars.js, mySQL, Sequelize, Materialized, Figma, JawsDB, Bcrypt"
+              ghLink="https://github.com/ahgeak/packing_list_travel_planner"
+              demoLink="https://shielded-earth-91970-0db761988706.herokuapp.com/"
             />
           </Col>
 
