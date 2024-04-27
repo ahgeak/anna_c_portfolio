@@ -4,6 +4,7 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import chore from "../../Assets/Projects/family-chore-planner-screenshot.png";
 import packing from "../../Assets/Projects/PackingList_Screenshot.png";
+import book from "../../Assets/Projects/Screenshot_Book_Search_Engine.png";
 
 // import leaf from "../../Assets/Projects/leaf.png";
 // import emotion from "../../Assets/Projects/emotion.png";
@@ -47,12 +48,12 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chore}
+              imgPath={book}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              title="Book Search Engine"
+              description="Google Books API search engine that allows users to search for books they would like to read and save a list of books to their profile. Technologies used: MongoDB, Express, React, Node, GraphQL"
+              ghLink="https://github.com/ahgeak/book_search_engine"
+              demoLink="https://book-search-engine-70lp.onrender.com/"              
             />
           </Col>
 
