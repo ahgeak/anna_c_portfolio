@@ -5,6 +5,7 @@ import Particle from "../Particle";
 import chore from "../../Assets/Projects/family-chore-planner-screenshot.png";
 import packing from "../../Assets/Projects/PackingList_Screenshot.png";
 import book from "../../Assets/Projects/Screenshot_Book_Search_Engine.png";
+import jate from "../../Assets/Projects/jate_screenshot.png";
 
 // import leaf from "../../Assets/Projects/leaf.png";
 // import emotion from "../../Assets/Projects/emotion.png";
@@ -59,12 +60,12 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chore}
+              imgPath={jate}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              title="Web Browser Text Editor"
+              description="A Progressive Web Application text editor program that runs in the browser. Technologies used: JavaScript, Webpack, Workbox, Render, IndexedDB"
+              ghLink="https://github.com/ahgeak/text_editor_progressive_web_app"
+              demoLink="https://text-editor-progressive-web-app.onrender.com/"
             />
           </Col>
 
