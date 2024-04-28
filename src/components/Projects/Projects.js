@@ -6,7 +6,8 @@ import chore from "../../Assets/Projects/family-chore-planner-screenshot.png";
 import packing from "../../Assets/Projects/PackingList_Screenshot.png";
 import book from "../../Assets/Projects/Screenshot_Book_Search_Engine.png";
 import jate from "../../Assets/Projects/jate_screenshot.png";
-import weather from "../../Assets/Projects/Screenshot_Book_Search_Engine.png";
+import weather from "../../Assets/Projects/WeatherDashboardScreenshot.png";
+import note from "../../Assets/Projects/Note_taker_screenshot.png";
 
 function Projects() {
   return (
@@ -36,7 +37,7 @@ function Projects() {
               imgPath={packing}
               isBlog={false}
               title="Packing List"
-              description="A program to help you plan your upcoming trip by creating a packing list. Technologies used: Node, Express, Handlebars.js, mySQL, Sequelize, Materialized, Figma, JawsDB, Bcrypt"
+              description="A program to help you plan your upcoming trip by creating a packing list. Technologies used: Node, Express, mySQL, Bcrypt, Sequelize, Figma, JawsDB, Materialized, Handlebars.js"
               ghLink="https://github.com/ahgeak/packing_list_travel_planner"
               demoLink="https://shielded-earth-91970-0db761988706.herokuapp.com/"
             />
@@ -68,7 +69,7 @@ function Projects() {
             <ProjectCard
               imgPath={weather}
               isBlog={false}
-              title="Weather Dashboard Trip Planner"
+              title="Weather Trip Planner"
               description="Program to plan a trip based on the upcoming local weather of searched cities. Technologies used: JavaScript, third party API, CSS, HTML"
               ghLink="https://github.com/ahgeak/weather-dashboard-trip-planner"
               demoLink="https://ahgeak.github.io/weather-dashboard-trip-planner/"
@@ -77,13 +78,12 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chore}
+              imgPath={note}
               isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+              title="Note Taker"
+              description="Note Taker is a program to help with keeping track of your tasks. The user can enter their notes, click the save button to store the notes and also click the delete button to remove notes. Technologies used: JavaScript, CSS, HTML, Heroku, CRUD API Requests"
+              ghLink="https://github.com/ahgeak/note_taker"
+              demoLink="https://gentle-lake-68304-246fd0ade036.herokuapp.com/"
             />
           </Col>
         </Row>
