@@ -6,12 +6,7 @@ import chore from "../../Assets/Projects/family-chore-planner-screenshot.png";
 import packing from "../../Assets/Projects/PackingList_Screenshot.png";
 import book from "../../Assets/Projects/Screenshot_Book_Search_Engine.png";
 import jate from "../../Assets/Projects/jate_screenshot.png";
-
-// import leaf from "../../Assets/Projects/leaf.png";
-// import emotion from "../../Assets/Projects/emotion.png";
-// import editor from "../../Assets/Projects/codeEditor.png";
-// import suicide from "../../Assets/Projects/suicide.png";
-// import bitsOfCode from "../../Assets/Projects/blog.png";
+import weather from "../../Assets/Projects/Screenshot_Book_Search_Engine.png";
 
 function Projects() {
   return (
@@ -71,12 +66,12 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chore}
+              imgPath={weather}
               isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
+              title="Weather Dashboard Trip Planner"
+              description="Program to plan a trip based on the upcoming local weather of searched cities. Technologies used: JavaScript, third party API, CSS, HTML"
+              ghLink="https://github.com/ahgeak/weather-dashboard-trip-planner"
+              demoLink="https://ahgeak.github.io/weather-dashboard-trip-planner/"
             />
           </Col>
 
