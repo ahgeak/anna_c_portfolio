@@ -28,7 +28,7 @@ function Home2() {
               </i>
               <br />
               <br />
-              I have a masters degree from Stanford University and a Full Stack Coding Certificate from UC Berkley. In my free time I enjoy playing boardgames, crafting and hiking.
+              I have a master's degree from <span className="purple">Stanford University</span>, a bachelor's degree from <span className="purple">Dartmouth College</span>, and a Full Stack Developer Certificate from <span className="purple">UC Berkley</span>. In my free time I enjoy playing boardgames, crafting and hiking.
             </p>
           </Col>
           <Col md={4} className="myAvtar">
